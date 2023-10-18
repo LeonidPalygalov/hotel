@@ -72,6 +72,8 @@ header {
 /* Спецпредложения */
 section {
   height: 725px;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 .special-offers {
@@ -80,24 +82,45 @@ section {
   align-items: center;
 }
 
+.section-header {
+font-size: 40px;
+font-weight: 500;
+padding-left: 40px;
+}
+
 .island {
   background-image: url(../img/img1.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 50px;
-
-  gap: 20px;
 }
+.island,
+.Krit {
+  background-repeat: no-repeat;
+  height: 274px;
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
 
+}
 .Krit {
   background-image: url(../img/Rectangle\ 15.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 50px;
-  margin-top: 15px;
 }
+#overlay {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /*background-color: rgba(48, 64, 89, 0.84);*/
+  background: linear-gradient(to right, rgba(48, 64, 89, 0.84), rgba(255, 255, 255, 0));
+
+  z-index: 4;
+  padding: 50px;
+  gap: 20px;
+  height: 100%;
+}
+
 .special-offers__left {
-  width: 40%;
+  width: 573px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .special-offers__right {
@@ -106,10 +129,11 @@ section {
   padding: 50px;
   background-image: url(../img/33\ 1.jpg);
   background-repeat: no-repeat;
-  height: 443px;
+  height: 474px;
   background-size: cover;
   justify-content: flex-end;
   flex-direction: column;
+  border-radius: 15px;
 }
 
 .special-offers__right-text {
