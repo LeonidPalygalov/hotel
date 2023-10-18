@@ -1,0 +1,142 @@
+header {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block1-left,
+.block1-right {
+  display: flex;
+  gap: 5px;
+}
+
+.und-block {
+  font-family: Muller;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+.block2 {
+  display: flex;
+  height: 70px;
+
+  background: rgb(248, 243, 243);
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.block2-left,
+.block2-right {
+  display: flex;
+}
+
+.under-block {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 25px;
+  margin: 0 15px 15px 0;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #cc9933;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  transition: box-shadow 0.2s;
+}
+/* Спецпредложения */
+section {
+  height: 725px;
+}
+
+.special-offers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.island {
+  background-image: url(../img/img1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
+
+  gap: 20px;
+}
+
+.Krit {
+  background-image: url(../img/Rectangle\ 15.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin-top: 15px;
+}
+.special-offers__left {
+  width: 40%;
+}
+
+.special-offers__right {
+  display: flex;
+  width: 40%;
+  padding: 50px;
+  background-image: url(../img/33\ 1.jpg);
+  background-repeat: no-repeat;
+  height: 443px;
+  background-size: cover;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.special-offers__right-text {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(245, 245, 245);
+}
+
+.special-offers__left-text {
+  font-size: 40px;
+  color: rgb(245, 245, 245);
+}
+.special-offers__right-price {
+  font-size: 30px;
+}
+
+.special-offers__left-price {
+  font-size: 20px;
+}
+.special-offers__left-price,
+.special-offers__right-price {
+  color: gray;
+}
+
+.special-offers__left-link a,
+.special-offers__right-link a {
+  color: rgb(240, 190, 95);
+  text-decoration: none;
+  font-size: 16px;
+}
