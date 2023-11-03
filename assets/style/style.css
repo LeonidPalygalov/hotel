@@ -1,5 +1,5 @@
 header {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ header {
 }
 /* Спецпредложения */
 section {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -79,6 +79,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .section-header {
@@ -208,12 +209,16 @@ footer {
   background-size: cover;
   border-radius: 15px;
   flex-wrap: wrap;
-  width: 1170px;
-  height: 341px;
+  max-width: 1170px;
+  min-height: 341px;
   margin-left: 365px;
- 
   margin: 0 auto;
-  margin-top: 65px;
+  margin-top: 65px; 
+  justify-content: space-between;
+}
+
+.footer-left-items {
+  display: flex;
 }
 
 .footer-left {
@@ -237,8 +242,8 @@ footer {
 
 .footer-right {
   display: flex;
-  padding: 45px 1100px 193px 1060px;
-  position: absolute;
+  padding-right: 100px;
+  padding-left: 100px;
   padding-top: 33px;
   flex-direction: column;
 }
